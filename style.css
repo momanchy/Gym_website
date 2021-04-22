@@ -1,0 +1,263 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+header{width: 100%;height: 100vh;background: black;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);}
+
+
+  nav{width: 100%;height: 100px;display: flex;
+    justify-content: space-evenly;align-items: center;
+    color: white;}
+
+    div#right_logo {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+span#logo {
+    color: red;
+}
+
+
+#menoDiv a {text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: bold;
+padding: 10px;
+margin: 10px;}
+
+#menoDiv a:first-child{border-bottom: 1px solid royalblue;}
+
+div#MideaIcon {width: 100px;}
+
+div#leftContainer>img {
+    width: 60%;
+    border-radius: 5px;
+    /* border: solid 1px gray; */
+    position: relative;
+    margin: 42px 11px;
+}
+#container{color: white;width: 100%;display: flex;justify-content: center;align-items: center;}
+
+#leftContainer{flex-basis: 50%;}
+
+#RightContainer{flex-basis: 50%;
+max-width: 400px;}
+
+#RightContainer h2 {color: red;font-size: 50px;}
+#RightContainer p{font-size: 25px;margin: 10px 0px;font-family: Georgia;}
+
+#btn{font-size: 25px;border-bottom: solid royalblue;
+    border-radius: 10px;font-weight: bold;
+    background: transparent;padding: 10px 20px;
+color: white;}
+
+#about{padding: 100px 0px; }
+
+#about-raw{width: 100%;
+display: flex;
+justify-content:space-evenly;
+align-items: center;}
+
+#about-left-col{flex-basis: 50%;
+max-width: 400px;
+margin: auto;}
+
+#about-right-col{flex-basis: 50%;
+text-align: center;}
+
+#about-right-col img    {width: 80%;
+
+}
+
+span#Me {
+    color: red;
+}
+
+
+div#about-left-col>h1 {
+    font-family: arial;
+    font-size: 50px;
+}
+
+#about-left-col p{font-size: 20px;text-align: justify;margin: 15px 0px;font-family: Georgia;}
+
+#B-btn{font-size: 25px;border-bottom: rebeccapurple solid;
+    border-radius: 8px;
+    background: gray;padding: 10px;
+    margin: 10px 0px;}
+
+    #sinupSection{padding-top: 50px;
+    padding-bottom: 20px;
+background: rgba(0, 0, 0,0.03);
+clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);}
+
+#sinup-raw{display: flex;
+justify-content: space-evenly;
+align-items: center;}
+
+#sinup-left-col{flex-basis: 50%;
+text-align: center;}
+
+#sinup-left-col img{width: 60%;}
+
+
+#sinup-Right-col{flex-basis: 50%;}
+
+button#C-btn {
+    padding: 11px 18px;
+    background: #00bcd4;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+div#sinup-Right-col>h1 {
+    font-size: 90px;
+}
+
+div#sinup-Right-col> h2 {
+    font-size: 45px;
+    letter-spacing: 60px;
+    color: rgba(0,0,0,0.3);
+    margin: 10px 0px;
+}
+
+#service-main-section{padding: 50px 0px;
+}
+
+#service-info{text-align: center;}
+
+#service-info h1{font-size: 50px;}
+
+#service-info p{font-size: 25px;
+font-weight: bold;}
+
+#Our{color: red;}
+
+
+
+.service-row {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-auto-rows: minmax(150px,auto);
+    grid-gap: 3em;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.service-box {
+    box-shadow: 2px 3px 5px gray;
+    padding: 10px;
+    text-align: center;
+}
+.service-box i{background: cornflowerblue;
+color: white;
+font-size: 30px;
+padding: 10px;
+margin-top: -20px;}
+
+
+
+#member-section{padding: 100px;
+background: url(images/dumble.png);
+background-size: 35% 35%;
+background-repeat: no-repeat;
+background-position: top right;
+}
+
+#member-card{text-align: center;
+padding-top:50px;}
+
+
+
+#member-card p{padding: 15px;font-family: new;letter-spacing: 1px;font-size: 22px;}
+div#member-card h2 {
+    font-family:  Georgia;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+#member-icon{display: inline-grid;
+padding-top: 20px;}
+.member-icon-2{}
+
+
+
+#Work{padding-top: 50px;
+padding-bottom: 200px;
+background: #f9f9f9;
+clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);}
+
+#service-row_2{display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-auto-rows: minmax(150px,auto);
+    grid-gap: 3em;
+    justify-content: center;
+    padding-top: 20px;}
+
+    .work-box{box-shadow: 2px 3px 5px gray;}
+
+    .work-box img{width: 100%;
+    height: 100%;}
+
+
+    #contact{padding: 30px 0px;
+    }
+
+    .contact-raw{display: flex;
+    justify-content: center;
+align-items: center;}
+
+.contact-left-cal{flex-basis: 50%;
+padding-top: 50px;
+}
+
+.contact-Right-cal{flex-basis: 50%;
+    max-width: 450px;
+    margin: auto;
+}
+
+.contact-Right-cal i
+{font-size: 20px;
+padding: 10px;
+background: #00bcd4;
+color: white;}
+
+.contact-Right-cal p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.form{width: 70%;
+margin: auto;
+text-align: center;}
+
+.form input[type="text"]{width: 70%;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+textarea{width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;}
+
+.c-btn{background: #000;
+color: white;
+padding: 10px;
+width: 50%;
+border: none;}
+
+#footer{background: #000;
+color: white;
+padding: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;}
+
+
+.service-box img {
+    width: 67px;
+    background: gray;
+    box-shadow: 5px 4px gainsboro;
+}
